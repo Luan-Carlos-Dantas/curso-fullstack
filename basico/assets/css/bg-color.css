@@ -1,0 +1,29 @@
+/*
+Named colors
+
+RGB - Hexadecimal
+*/
+
+body{
+  background-color: #fa9;
+}
+
+div{
+  height: 400px;
+  width: 400;
+  background-image: url("https://www.rocketseat.com.br/_next/static/media/rocketseat.7f71b116.svg");
+  /* background-repeat: repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  background-repeat: no-repeat;
+  /* background-position-x: center;
+  background-position-y: center; */
+  background-position: center;
+  background-size: cover;
+
+  background: center / contain url("https://yt3.ggpht.com/Qsf__eFCAAGX59KHV3XdKgXFx_Qfb4H4O9RbVcqcy-j0L9VmINxNFRZnWhifP2FeUFXHvhw4hg=s48-c-k-c0x00ffffff-no-rj") no-repeat;
+}
+
+p{
+  color: #3e3e3e;
+}

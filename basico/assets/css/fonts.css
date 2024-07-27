@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family */
+p{
+/* genéricos */
+  font-family: fantasy;
+/* nome da família + genéricos */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-size: 1rem;
+
+  /* font-style: italic; */
+
+  font-weight: 500;
+
+  /* text-transform: uppercase; */
+  text-transform: lowercase;
+  /* text-transform: capitalize; */
+
+  text-align: center;
+
+  line-height: 1.5rem;
+
+  letter-spacing: 0.1rem;
+
+  word-spacing: normal;
+
+  /* font: font-style, font-variant, font-weight, font-stretch, font-size/line-height, font-family */
+  /* font: italic small-caps 16px/1.5rem sans-serif; */
+
+  font-family: 'Roboto', sans-serif;
+}
+
+mark{
+  background-color: lightgray;
+  color: cornflowerblue;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: none;
+  color: darkseagreen;
+}

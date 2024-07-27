@@ -1,0 +1,27 @@
+/* Seletores
+  - types / element / tag
+  - id
+  - class
+  - atributo
+  - universal
+*/
+
+/* class */
+.classe{
+  font-size: 16px;
+}
+
+/* atribute */
+[id='indetificador']{
+  color:aquamarine
+}
+
+/* universal */
+*{
+  background-color: bisque;
+}
+
+/* element */
+p{
+  width: 100%;
+}

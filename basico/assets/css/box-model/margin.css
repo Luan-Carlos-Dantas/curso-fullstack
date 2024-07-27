@@ -1,0 +1,9 @@
+div, span
+{
+  width: 50%;
+}
+.margin{
+  border: solid blueviolet;
+  /* margin: 20px auto; */
+  padding: 10px 20px;
+}

@@ -1,0 +1,18 @@
+div{
+  background-color: #0f0f0f;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+/*
+section{
+  position: relative;
+} */
+
+.position{
+  background-color:blueviolet;
+  position: sticky;
+  top: 20px;
+  right: 20px;
+  z-index: auto;
+}

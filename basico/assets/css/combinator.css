@@ -1,0 +1,30 @@
+/*  Combinator
+  - Descendent
+  - List
+  - Next sibling
+  - Child
+*/
+
+/* Descendent */
+
+article p{
+  color: red;
+}
+
+/* List */
+
+span, mark{
+  color: blue;
+}
+
+/* Next sibling */
+h2 + p {
+  background-color: coral;
+}
+
+
+/* Child */
+aside > ul{
+  /*primeiro filho*/
+  margin-top: 60px;
+}

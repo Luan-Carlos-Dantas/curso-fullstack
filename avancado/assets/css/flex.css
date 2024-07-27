@@ -1,0 +1,23 @@
+.container{
+  height: 50vh;
+  border: dashed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item{
+  border: solid darkred;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+div:nth-child(2){
+  background-color: blueviolet;
+}
+div:nth-child(3){
+  background-color:lightcoral;
+}
+div:nth-child(4){
+  background-color:steelblue;
+}

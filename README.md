@@ -34,3 +34,25 @@ Cascadin Stylesheet
 
 > elementos
 `<a>, <span>, <strong> e etc.`
+
+## GRID
+
+Todo grid é composto de 2 principais grupos
+`contatiner` o pai e `itens` os filhos
+
+---
+### Container
+ - `display:grid`
+ - `grid-template;`
+  - `grid-template-columns;`
+  - `grid-template-rows`
+  - `grid-template-areas`
+
+--
+### Itens
+  - `grid-column;`
+    - `grid-column-start;`
+    - `grid-column-end;`
+  - `grid-row;`
+    - `grid-row-start;`
+    - `grid-row-end`

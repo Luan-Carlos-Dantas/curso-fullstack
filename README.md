@@ -55,4 +55,33 @@ Todo grid é composto de 2 principais grupos
     - `grid-column-end;`
   - `grid-row;`
     - `grid-row-start;`
-    - `grid-row-end`
+    - `grid-row-end;`
+  - `grid-area`
+
+  --
+
+  ### Propriedades de alinhamento
+
+  Existem 9 propriedades fundamentais
+
+  **6 aplicadas em containers**
+  `align-content`
+  `justify-content`
+  `place-content`
+
+  `align-items`
+  `justify-content`
+  `place-content`
+
+  **3 aplicadas em items**
+  `align-self`
+  `justify-self`
+  `place-self`
+
+  Então podemos separar em 3 grupos:
+  `align`, `justify`, `place`
+
+  E cada um deles irá observar ou
+  - conteúdo
+  - item
+  - pai

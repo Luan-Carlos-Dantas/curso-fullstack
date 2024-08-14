@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/">
+  <title>HTML Forms</title>
+</head>
+<body>
+  <form action="" method="get" enctype="multipart/form-data">
+    <fieldset>
+      <legend>Dados Pessoais:</legend>
+      <p>
+        <label for="nome">Nome:
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            autocomplete="additional-name"
+            placeholder="Digite seu nome"
+          >
+        </label>
+      </p>
+
+      <p>
+        <label for="number">Number
+          <input type="number" min="1" max="50" step="4" id="number">
+        </label>
+      </p>
+
+      <p>
+        <label for="email">Email:
+          <input
+            type="email"
+            name="mail"
+            id="email"
+            multiple
+            pattern=".+@rocketseat\.com\.br"
+            title="Email apenas @rocketseat">
+        </label>
+      </p>
+
+      <p>
+        <label for="password">Senha:
+          <input
+            id="password"
+            type="password"
+            minlength="8"
+            maxlength="14"
+            inputmode="numeric"
+            pattern="[0-9a-fA-F]{4,8}"
+          >
+        </label>
+      </p>
+    </fieldset>
+    <p>
+      <label for="file">Arquivos:
+        <input
+          type="file"
+          name="foto-perfil"
+          accept=".pdf"
+          id="file"
+        >
+      </label>
+
+    </p>
+    <p>
+      <label for="range">Range:
+        <input
+          name="range"
+          type="range"
+          min="20"
+          max="200"
+          step="5"
+          id="range"
+        >
+      </label>
+    </p>
+    <p>
+      <label for="color">
+        Color:
+        <datalist id="color-picker">
+          <option value="#c5c5c5"></option>
+          <option value="#c5f422"></option>
+          <option value="#c599ee"></option>
+        </datalist>
+        <input
+          type="color"
+          name="color"
+          list="color-picker"
+          id="color"
+        >
+      </label>
+    </p>
+    <p>
+      <label for="check">Checkbox
+        <input type="checkbox" id="check" name="carro" value="fiat">
+        <input type="checkbox" id="check" name="carro" value="ford" checked>
+      </label>
+    </p>
+    <p>
+      <label for="radio">Fiat
+        <input type="radio" id="radio" name="carro" value="fiat">
+      </label>
+      <label for="ford">Ford:
+        <input type="radio" id="ford" name="carro" value="ford" checked>
+      </label>
+    </p>
+    <p>
+      <label for="textarea">Textarea
+        <textarea name="textarea" id="textarea" wrap="off"></textarea>
+      </label>
+    </p>
+    <p>
+      <label for="select">
+        Estados:
+        <select name="select" id="select">
+          <option  value="">Selecione...</option>
+          <option value="SP">SP</option>
+          <option value="RJ">RJ</option>
+        </select>
+      </label>
+    </p>
+    <br>
+    <button autofocus ="reset">limpar</button>
+    <button type="submit">submit</button>
+    <button disabled ="button">button</button>
+  </form>
+</body>
+</html>

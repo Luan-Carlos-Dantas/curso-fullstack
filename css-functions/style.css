@@ -1,0 +1,38 @@
+.css-function-transform{
+  width: 30px;
+  height: 30px;
+  border: black solid 1px;
+  transform: translate(100px) rotate(45deg) scale(1.5);
+}
+
+.css-function-math{
+  width: calc(50% / 2);
+  height: 50vh;
+  border: black solid 1px;
+  font-size: clamp(1rem, 4vw, 2rem);
+}
+
+.css-function-filter{
+  width: 30px;
+  height: 30px;
+  border: black solid 1px;
+  background-color: aquamarine;
+  filter: hue-rotate(200);
+}
+
+.css-function-gradient{
+  width: 30px;
+  height: 30px;
+  border: black solid 1px;
+  /* background-image: linear-gradient(90deg, red, green, blue); */
+  background-image: radial-gradient(red, green, blue);
+}
+
+.css-function-clip{
+  width: 30px;
+  height: 30px;
+  border: black solid 1px;
+  background-image: radial-gradient(red, green, blue);
+  clip-path: polygon(0 0, 8% 46%, 30% 0, 41% 44%, 33% 75%, 22% 39%, 0% 75%);
+
+}

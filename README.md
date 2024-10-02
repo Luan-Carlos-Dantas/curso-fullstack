@@ -85,3 +85,64 @@ Todo grid é composto de 2 principais grupos
   - conteúdo
   - item
   - pai
+
+## CSS Functions
+  ### Funçoes aplicadas como valores
+    - not()
+    - :has()
+
+  ### Transform
+    - translate()
+    - rotate()
+    - scale()
+
+  ### Math
+    - basic arithmetic
+      - calc()
+    - comparison
+      - min(unit 1, unit 2)
+      - max(unit 1, unit 2)
+      - clamp(min, middle, max)
+    - outhers
+
+  ### Filter
+    - hue()
+    - saturation()
+    - brightness()
+    - contrast()
+    - drop-shadow()
+    - opacity()
+    - invert()
+    - hue-saturation()
+    - saturate()
+
+  ### Color
+    - rgba(red, green, blue, alpha)
+    - hsla(hue, saturation, lightness, alpha)
+    - color-mix()
+    - #fff
+
+  ### Gradient
+    - linear-gradient(deg, red, green, blue)
+    - radial-gradient()
+
+  ### References
+    - var()
+    - url()
+    - attr()
+
+## Responsividade
+  ### Media Queries
+    `@media screen and min/max{}`
+    `<meta name="viewport" content="width=device=width, initial-scale-1.0">`
+    - @media
+      - breakpoints
+        - px
+        - rem
+        - named
+      - rules
+        - min
+        - max
+      - range
+        - > >= <= <
+        - width < 480px
